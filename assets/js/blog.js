@@ -17,14 +17,16 @@ backButton.addEventListener(`click`, function(){
 })
 //found the DOMContentLoaded online, only way my function would work
 document.addEventListener('DOMContentLoaded', function() {
-   
+//This is how I figured out how to retrieve the user input from the form
+//that I stored in local storage
 const getUserPosts = JSON.parse(localStorage.getItem(`userPosts`));
 console.log(getUserPosts);
 
 const userPosts = document.querySelector(`#userPosts`);
 
     getUserPosts.forEach(function(post) {
-
+//Here I made new elements and added classes to those elements
+//I also appeneded the user input that I got from local storage to the elements
         const newPost = document.createElement(`div`);
         newPost.classList.add(`post`);
         newPost.style.border = '3px solid black';
