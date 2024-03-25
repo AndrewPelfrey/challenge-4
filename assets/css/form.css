@@ -1,0 +1,31 @@
+#userForm {
+    margin-left: 75px;
+    margin-top: 5%;
+    float: right;
+    width: 40%;
+    text-align: center;
+}
+#userForm #username {
+    width:100%;
+}
+#userForm #blogTitle {
+    width: 100%;
+}
+#userForm #content {
+    width:100%;
+}
+#userForm button {
+    width:100%;
+    color: white;
+    background-color: black;
+    height: 35px;
+    border-radius: 40px;
+
+}
+#userForm input {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 35px;
+    border-color: blue;
+}
+

@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+}
+header {
+   text-align: center;
+    
+}
+
+
+header #switch-mode, header #back-page{
+    text-align: center;
+    font-size: 12px;
+    border-color: blue;
+    background-color: white;
+    border-radius: 7px;
+
+}
+
+.dark-mode {
+    background-color:#243447;
+  height: 100vh;
+  color: #f9f6f6;
+ 
+}
+.dark-mode.userUsernamePost.userTitlePost.userContentPost {
+    color: white;
+}
+#userPosts {
+    /* border: solid black; */
+    margin-top: 1%;
+}
+.userUsernamePost {
+    opacity: 20%;
+    /* color: green; */
+    margin-left: 10px;
+    font-style: italic;
+    
+}
+.userTitlePost {
+    /* color: purple; */
+    margin-left: 10px;
+    text-decoration: underline;
+}
+.userContentPost {
+    /* color: red; */
+    margin-left: 10px;
+    font-style: italic;
+}
+footer {
+
+    text-align: center;
+
+    margin-top: 50px;
+}
+#link {
+    color: rgb(167, 167, 28);
+    text-decoration: none;
+}
