@@ -9,3 +9,5 @@
 //         switchModeButton.textContent = 'Dark Mode';
 //     }
 // });
+
+// I dont know why, but this page wouldonly work on the index.html and not the blog.html
